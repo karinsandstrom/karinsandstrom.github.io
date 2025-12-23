@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- This work is dedicated to the public domain. -->
 
 <!-- Peter Williams' HTML template for a publications list
@@ -14,58 +14,104 @@ templates. My actual publication list is embedded in a Wordpress site that
 does a bunch of the CSS fanciness automatically, and it'd be a lot of work to
 extract all of that magic. -->
 
-
-
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Karin Sandstrom: Publications</title> <!--XXX-->
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-   scalable=no">
-    <style type="text/css" media="all">
-#container { width: 100%; margin: auto; }
-#pwpubs { border-collapse: collapse; }
-#pwpubs tr { vertical-align: top; border-top: 1px #777 solid; }
-#pwpubs td { padding-bottom: 10px; }
-#pwpubs_date { width: 1ex; }
-#pwpubs_ref { width: 1ex; }
-#pwpubs td.tauth { padding-right: 0ex; }
-#pwpubs_ads, #pwpubs_arxiv, #pwpubs_doi, #pwpubs_direct { width: 1ex; }
-.pwpubs_title { font-size: smaller; }
-.pwpubs_ftitle { font-size: smaller; font-weight: bold; }
-.pwpubs_auth { font-style: italic; }
-    </style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Karin Sandstrom</h1>
-        <p>Associate Professor<br>
-        University of California, San Diego<br>
-        Center for Astrophysics & Space Sciences</p>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Karin Sandstrom: Publications</title>
+        <!--XXX-->
+        <link rel="stylesheet" href="stylesheets/styles.css" />
+        <link rel="stylesheet" href="stylesheets/pygment_trac.css" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-   scalable=no"
+        />
+        <style type="text/css" media="all">
+            #container {
+                width: 100%;
+                margin: auto;
+            }
+            #pwpubs {
+                border-collapse: collapse;
+            }
+            #pwpubs tr {
+                vertical-align: top;
+                border-top: 1px #777 solid;
+            }
+            #pwpubs td {
+                padding-bottom: 10px;
+            }
+            #pwpubs_date {
+                width: 1ex;
+            }
+            #pwpubs_ref {
+                width: 1ex;
+            }
+            #pwpubs td.tauth {
+                padding-right: 0ex;
+            }
+            #pwpubs_ads,
+            #pwpubs_arxiv,
+            #pwpubs_doi,
+            #pwpubs_direct {
+                width: 1ex;
+            }
+            .pwpubs_title {
+                font-size: smaller;
+            }
+            .pwpubs_ftitle {
+                font-size: smaller;
+                font-weight: bold;
+            }
+            .pwpubs_auth {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Karin Sandstrom</h1>
+                <p>
+                    Professor<br />
+                    University of California, San Diego<br />
+                    Department of Astronomy & Astrophysics
+                </p>
 
-        <p>
-          <a href="index.html">Home</a> <br>
-          <a href="aboutme.html">About Me</a><br>
-          <a href="research.html">Research</a><br>
-          <a href="teaching.html">Teaching</a><br>
-          <a href="cv.html">CV</a> <br>
-          <a href="pubs.html">Publications</a> <br>
-        </p>
+                <p>
+                    <a href="index.html">Home</a> <br />
+                    <a href="aboutme.html">About Me</a><br />
+                    <a href="research.html">Research</a><br />
+                    <a href="teaching.html">Teaching</a><br />
+                    <a href="cv.html">CV</a> <br />
+                    <a href="pubs.html">Publications</a> <br />
+                </p>
 
-        <p> <b> Contact: </b> <br>
-          Email: kmsandstrom [at] ucsd.edu <br>
-          Twitter: <a
-              href="https://twitter.com/karinsandstrom">
-              @karinsandstrom</a>
-        </p>
+                <p>
+                    <b> Contact: </b> <br />
+                    Email: kmsandstrom [at] ucsd.edu <br />
+                    Bluesky:
+                    <a
+                        href="https://bsky.app/profile/karinsandstrom.bsky.social"
+                    >
+                        @karinsandstrom.bsky.social</a
+                    >
+                </p>
 
-        <p class="view"><a href="https://github.com/karinsandstrom">View My GitHub Profile</a></p>
-      </header>
+                <p class="view">
+                    <a href="https://github.com/karinsandstrom"
+                        >View My GitHub Profile</a
+                    >
+                </p>
+            </header>
 
-    <section>
-     <p> My publications can be found <a href="https://ui.adsabs.harvard.edu/public-libraries/Ztu7-jTyRleiUKohP_aLjw">here</a> <!--
+            <section>
+                <p>
+                    My publications can be found
+                    <a
+                        href="https://ui.adsabs.harvard.edu/public-libraries/Ztu7-jTyRleiUKohP_aLjw"
+                        >here</a
+                    >
+                    <!--
       <p>Below is an list of my publications, updated as of
 Aug 31, 2015.
       First-author works have their <span style="font-weight: bold">titles in
@@ -145,12 +191,19 @@ document can be found <a href="sandstrom_pubs.pdf">here</a></p>
 <tr><td>2001 Dec</td><td class="pwpubs_tauth"><span class="pwpubs_title"><b>The RR Lyrae Variables in M3. I. Abundance Determinations</b>  [12] </span> <br><span class="pwpubs_auth">Sandstrom, Pilachowski, Saha</span> • AJ 122 3212-3218</td><td><a href="http://adsabs.harvard.edu/abs/2001AJ....122.3212S">abstract</a></td><td></td><td><a href="http://dx.doi.org/10.1086/323926">official</a></td><td></td></tr>
       </table>
 -->
-    </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-
-  </body>
+                </p>
+            </section>
+            <footer>
+                <p>
+                    <small
+                        >Hosted on GitHub Pages &mdash; Theme by
+                        <a href="https://github.com/orderedlist"
+                            >orderedlist</a
+                        ></small
+                    >
+                </p>
+            </footer>
+        </div>
+        <script src="javascripts/scale.fix.js"></script>
+    </body>
 </html>
